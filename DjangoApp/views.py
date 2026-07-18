@@ -45,7 +45,7 @@ def logout2(request):
     logout(request)
     return redirect('home')
 
-def setProfile(request):
+def setprofile(request):
     if request.method == 'POST':
         form = SetProfileForm(request.POST)
         if form.is_valid():

@@ -5,7 +5,7 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('register/', views.register, name='register'),
     path('login/', views.login2, name='login'),
-    path('profile/', views.setProfile, name='profile'),
+    path('profile/', views.setprofile, name='profile'),
     path('logout/', views.logout2, name='logout'),
 
     path('allTasks/', views.allTasks, name='allTasks'),      # עמוד כל המשימות
